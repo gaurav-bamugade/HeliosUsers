@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowCalendar">
+   <androidx.appcompat.widget.Toolbar
+       android:id="@+id/show_attendance_toolbar"
+       android:layout_width="match_parent"
+       android:layout_height="?attr/actionBarSize"
+       app:navigationIcon="@drawable/ic_back_arrwo_white"
+       app:title="Attendance"
+       app:titleTextColor="@color/white"
+       app:menu="@menu/attendance_menu"
+       android:background="@color/appl_all_view_color" />
+   <com.example.usersidedemoproject.CustomCalendarView
+       android:id="@+id/custom_cal_view"
+       android:layout_below="@+id/show_attendance_toolbar"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       />
+</RelativeLayout>

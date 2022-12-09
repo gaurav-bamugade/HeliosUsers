@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f5f5f5"
+    tools:context=".GroupInfoActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/product_details_appbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/product_details_collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:fitsSystemWindows="true"
+            app:contentScrim="#0e0d0e"
+            app:expandedTitleTextAppearance="@android:color/transparent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/group_title_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@color/appl_all_view_color"
+                    app:title="Group Info"
+                    app:titleTextColor="@color/white" />
+                <ImageView
+                    android:id="@+id/groupInfoIcon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/group_title_info"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:maxHeight="350dp"/>
+
+            </RelativeLayout>
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/group_des"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#54000000"
+                    android:padding="5dp"
+                    android:text="The description of group"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textColor="@color/white">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/createdBy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/group_des"
+                    android:background="#54000000"
+                    android:padding="5dp"
+                    android:textColor="@color/white"
+                    android:text="Created By ABc, onm dd mm yy"/>
+
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/edit_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edit Group"
+                android:drawableStart="@drawable/ic_edit_grey"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:padding="5dp"
+                >
+            </TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#eee"
+                />
+
+            <TextView
+                android:id="@+id/add_users"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Participant"
+                android:textColor="@color/black"
+                android:padding="5dp"
+                android:drawableStart="@drawable/ic_add_group_grey"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical">
+            </TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#eee"
+                />
+            <TextView
+                android:id="@+id/leave_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Leave Group"
+                android:textColor="@color/black"
+                android:padding="5dp"
+                android:drawableStart="@drawable/ic_delete_grey"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical">
+            </TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#eee"
+                />
+
+            <TextView
+                android:id="@+id/participants"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_group_grey"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="Participants (N)"
+                android:textColor="@color/black"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#eee"
+                />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/participantRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/group_participant_add"
+                >
+
+            </androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+
+
+

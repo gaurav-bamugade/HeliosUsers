@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable-v24/badge_background.xml" value="0.167" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable-v24/corner_round_header.xml" value="0.167" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable-v24/cornerbg.xml" value="0.167" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable-v24/grey_border_task.xml" value="0.167" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable-v24/login_back_ground.xml" value="0.1845" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/aqua_border_color.xml" value="0.144" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/bubble_right.xml" value="0.1325" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/cell_shape.xml" value="0.139" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/cell_shape_end.xml" value="0.2" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/corner_round_header.xml" value="0.1195" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/custom_line.xml" value="0.144" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/gradient2.xml" value="0.1195" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/ic_add_group_grey.xml" value="0.1325" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/ic_add_group_person.xml" value="0.1325" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/ic_arrow_down_24.xml" value="0.1325" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/ic_arrow_downward_black.xml" value="0.144" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/ic_arrow_forward_24.xml" value="0.1325" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/ic_assign_task_white.xml" value="0.144" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/ic_black_search.xml" value="0.1325" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/ic_chat_white.xml" value="0.1325" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/ic_clock_black.xml" value="0.144" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/ic_close_white.xml" value="0.144" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/ic_create_group_white.xml" value="0.1325" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/ic_dash_black.xml" value="0.144" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/ic_edit_grey.xml" value="0.1325" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/ic_edit_white.xml" value="0.1325" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/ic_location.xml" value="0.1325" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/ic_task_black.xml" value="0.144" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/ic_time_black.xml" value="0.1325" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/ic_update_black.xml" value="0.144" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/ic_wifi_off_black.xml" value="0.14" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/little_round_header.xml" value="0.1325" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/receiver_message_layout.xml" value="0.1325" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/rounded_box.xml" value="0.144" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/drawable/style_spinner.xml" value="0.144" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/activity_approval_details.xml" value="0.25" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/activity_assigned_task.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/activity_chat_tabs.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/activity_create_task.xml" value="0.22" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/activity_created_task_updates.xml" value="0.1" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/activity_edit_group_image.xml" value="0.18" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/activity_edit_profile.xml" value="0.4330357142857143" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/activity_forget_password.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/activity_generate_attendance_pdf.xml" value="0.25" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/activity_group_chat2.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/activity_group_info.xml" value="0.16547066272688898" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/activity_group_participant.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/activity_leave_details.xml" value="0.21" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/activity_pendin_approval.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/activity_show_calendar.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/activity_show_leaves.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/activity_show_members_in.xml" value="0.22" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/activity_single_chat.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/activity_update_password.xml" value="0.21" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/activity_user_login.xml" value="0.25" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/activity_user_profile_details.xml" value="0.21" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/activity_users_profile.xml" value="0.33" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/add_category_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/add_member_dialogue.xml" value="0.25" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/approval_row_layout.xml" value="0.33" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/assign_task_team_row_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/back_ground_image.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/calendar_custom_layout.xml" value="0.20296570898980537" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/calendar_date_layout.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/change_group_name.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/chat_display_item_layout.xml" value="0.5" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/chat_drawer_toolbar.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/check_internet_connection_dialogue.xml" value="0.1" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/create_group_dialogue.xml" value="0.25" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/custom_messages_layout.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/dashboard_recyclerview_item_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/drawer_toolbar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/event_layout.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/fragment_assign_blank.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/fragment_dashboard.xml" value="0.21" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/fragment_group_chat.xml" value="0.16547066272688898" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/fragment_priority_for_task.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/fragment_single_chat.xml" value="0.21" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/fragment_status_of_task.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/fragment_task.xml" value="0.33" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/fragment_task_details.xml" value="0.25" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/fragment_update_progress_for_task.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/grid_layout.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/group_chat_list.xml" value="0.22" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/group_chat_receiver_left.xml" value="0.25" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/group_chat_sender_right.xml" value="0.25" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/group_participant_add.xml" value="0.33" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/home_task_row_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/leaves_request_row_layout.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/member_in_task_row_layout.xml" value="0.18" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/nav_header.xml" value="0.1381340579710145" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/row_attendance_report.xml" value="0.16673792218896966" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/row_attendance_report_header.xml" value="0.22" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/row_leave_report.xml" value="0.22" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/show_event_layout.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/show_events_layout.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/task_row_layout.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/layout/updates_task_message_row_layout.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/menu/attendance_menu.xml" value="0.5" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/menu/bottom_menu_items.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/menu/chat_notification.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/menu/delete_task_menu.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/menu/group_menu.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Komal Bamugade/AndroidStudioProjects/userSideDemoProject/app/src/main/res/menu/side_menu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

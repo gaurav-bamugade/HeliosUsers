@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/appl_all_view_color"
+        app:navigationIcon="@drawable/ic_back_arrwo_white"
+        android:id="@+id/toolbar">
+    </androidx.appcompat.widget.Toolbar>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/appbarlayout"
+            >
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/main_tabs"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </com.google.android.material.tabs.TabLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/main_view_page"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/send_msg_layout"
+            android:layout_below="@+id/appbarlayout"
+        />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/send_msg_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:elevation="3dp"
+            app:contentPadding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="10dp"
+                android:background="@drawable/grey_border_task"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/attachment"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@null"
+                    android:src="@drawable/ic_attach_black" />
+
+                <EditText
+                    android:id="@+id/message_typing"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:layout_margin="2dp"
+                    android:background="@null"
+                    android:hint="Update your work..."
+                    android:inputType="textCapSentences|textMultiLine">
+
+                </EditText>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/upload_update"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="10dp"
+                    android:src="@drawable/ic_send_black"
+                    app:civ_border_color="@color/grey"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+</LinearLayout>

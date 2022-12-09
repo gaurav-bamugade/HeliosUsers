@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateProgressForTaskFragment">
+
+   <!-- <include
+        layout="@layout/back_ground_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
+    <TextView
+        android:id="@+id/taskup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="TASK UPDATES"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+    <LinearLayout
+        android:id="@+id/show_no_update_found"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        >
+        <ImageView
+            android:layout_width="128sp"
+            android:layout_height="128sp"
+            android:src="@drawable/ic_update_black"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please Update here"
+            android:gravity="center"
+            />
+        <!--<TextView
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Low Stock product found"
+            android:gravity="center"
+            />-->
+    </LinearLayout>
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/assgned_task_updates"
+    android:layout_below="@+id/taskup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    >
+</androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>

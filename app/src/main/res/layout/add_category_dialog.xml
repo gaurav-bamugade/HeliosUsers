@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/appl_all_view_color">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="20dp"
+                        android:gravity="start"
+                        android:text="APPLY FOR LEAVE"
+                        android:textColor="@color/white"
+                        android:textSize="14sp">
+
+                    </TextView>
+
+                    <ImageButton
+                        android:id="@+id/close_dialogue_top_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="20dp"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_close_white" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/dialogue_from_date_calendar_picker"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_calendar_black"/>
+
+                    <TextView
+                        android:id="@+id/dialogue_from_date_edit_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:background="@drawable/grey_border"
+                        android:hint="From Date"
+                        android:paddingStart="10dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/dialogue_to_date_calendar_picker"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:textColor="@color/black"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_calendar_black"/>
+
+                    <TextView
+                        android:id="@+id/dialogue_to_date_edit_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:background="@drawable/grey_border"
+                        android:hint="To Date"
+                        android:paddingStart="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/dialogue_spinner_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                >
+
+            </TextView>
+            <Spinner
+                android:id="@+id/dialogue_pick_leave_type"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:textSize="12sp"
+                android:background="@drawable/style_spinner"
+                android:textColor="@color/black"
+                android:layout_gravity="end" />
+            <EditText
+                android:id="@+id/dialogue_enter_reason"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginRight="15dp"
+                android:inputType="textMultiLine"
+                android:background="@drawable/grey_border"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:hint="Enter Reason" />
+
+    <!--        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="30sp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/custom_line" />-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_margin="15dp"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <Button
+                    android:id="@+id/dialogue_cancel_btm_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/grey_border"
+                    android:text="CANCEL"/>
+
+                <Button
+                    android:id="@+id/dialogue_submit_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:background="@drawable/grey_border"
+                    android:text="SUBMIT"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

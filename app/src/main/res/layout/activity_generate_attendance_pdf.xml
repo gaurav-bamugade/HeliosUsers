@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".GenerateAttendancePdfActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/pdf_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/create_pdf"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/com_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/pdf_com_logo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/logo1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@id/pdf_com_logo"
+                android:text="@string/helios_enterprises"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="25sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/emp_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/com_header"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/employee_name"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Employee Name" />
+
+            <TextView
+                android:id="@+id/attendance_month"
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/employee_name"
+                android:layout_marginTop="10dp"
+                android:text="Attendance month" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/attendance_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/emp_header">
+            <TextView
+                android:id="@+id/attendance_header_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="20sp"
+                android:text="Attendance Report"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/attendance_rec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/attendance_header_text"
+                tools:listitem="@layout/row_attendance_report"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/leave_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/attendance_header">
+
+            <TextView
+                android:id="@+id/leave_header_text"
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Leave Report"
+                android:textSize="20sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/leave_rec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/leave_header_text"
+                tools:listitem="@layout/row_leave_report"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/create_pdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/appl_all_view_color"
+        android:contentDescription="@string/download_pdf"
+        android:src="@drawable/ic_baseline_picture_as_pdf_24" />
+<!--        android:textColor="@color/white"-->
+<!--        android:text="@string/download_pdf"-->
+<!--        android:layout_below="@id/leave_header"-->
+</RelativeLayout>

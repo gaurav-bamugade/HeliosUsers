@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cornerbg"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    android:layout_height="200dp">
+
+<!--<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@mipmap/ic_launcher">
+</ImageView>-->
+    <TextView
+        android:id="@+id/user_coins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4600"
+        android:layout_gravity="right"
+        android:drawablePadding="10dp"
+        >
+    </TextView>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/Icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/adminicon"
+
+        />
+
+  <TextView
+        android:id="@+id/name_of_user"
+        android:layout_width="wrap_content"
+        android:text="Name"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/email_id_of_user"
+        android:layout_width="wrap_content"
+        android:text="email"
+        android:textSize="18sp"
+
+        android:textColor="@color/iconname"
+        android:layout_height="wrap_content">
+    </TextView>
+    <!--<TextView
+        android:id="@+id/appdesc"
+        android:layout_width="wrap_content"
+        android:text="Where People Conect!!"
+        android:textSize="16dp"
+        android:textColor="@color/iconname"
+        android:layout_height="wrap_content">
+    </TextView>-->
+    
+</LinearLayout>

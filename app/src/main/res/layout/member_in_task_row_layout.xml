@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:elevation="3dp"
+    app:contentPadding="5dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linear_chat_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/display_user_profile_image"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:src="@drawable/adminicon">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_marginStart="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/display_user_name"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:layout_marginStart="5sp"
+                    android:text="User Name">
+                </TextView>
+                <ImageButton
+                    android:id="@+id/delete_Member"
+                    android:layout_weight="5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_delete_black"
+                    android:background="@android:color/transparent"
+                    android:layout_gravity="end"
+                    >
+
+                </ImageButton>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/user_role"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User Role"
+                android:textSize="13sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="5sp"
+                >
+
+            </TextView>
+            <TextView
+                android:id="@+id/task_user_role"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Role"
+                android:textSize="13sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="5sp"
+                >
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

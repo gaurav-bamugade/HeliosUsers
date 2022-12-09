@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.usersidedemoproject">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UserSideDemoProject"
+        tools:targetApi="31">
+        <activity
+            android:name=".GenerateAttendancePdfActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ApprovalDetailsActivity"
+            android:exported="false" />
+        <activity android:name=".PendinApprovalActivity" />
+        <activity
+            android:name=".LeaveDetailsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ShowLeavesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ShowCalendar"
+            android:exported="true" />
+        <activity
+            android:name=".EditGroupImageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GroupChatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GroupInfoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AddGroupParticipantActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SingleChatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChatTabsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UserProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UserProfileDetailsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ShowMembersInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreatedTaskDetailsUpdates"
+            android:exported="true" />
+        <activity
+            android:name=".AssignedTaskActivity"
+            android:exported="true" />
+        <activity
+            android:name=".createTaskActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UpdatePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserLoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ForgetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PendinApprovalActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/show_leaves_details_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        app:titleTextColor="@color/white"
+        app:navigationIcon="@drawable/ic_back_arrwo_white"
+        app:title="Pending Approvals"
+        android:background="@color/appl_all_view_color" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/pending_rc"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/show_leaves_details_toolbar"
+        tools:listitem="@layout/approval_row_layout"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>
